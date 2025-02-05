@@ -1,0 +1,59 @@
+@import "base";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Outfit';
+    background-color: $slate_300;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+main{
+    width: 90%;
+    max-width: 32rem;
+    margin: 0 auto;
+    .card-qr{
+        background-color: $white;
+        padding: 1.6rem 1.6rem 4rem;
+        border-radius: 2rem;
+        text-align: center;
+        box-shadow: 0 2.5rem 2.5rem rgba($color: $slate_500, $alpha: 0.1);
+        &__code{
+            overflow: hidden;
+            img{
+                border-radius: 1rem;
+                width: 100%;
+                margin-bottom: 2.4rem;
+            }
+        }
+        &__title{
+            @include title;
+        }
+        &__description{
+            @include paragraph;
+        }
+    }
+}
+
+footer{
+    font-size: 11px; 
+    text-align: center;
+    color: $slate_500;
+    a {
+        color: $slate_900;
+        font-weight: 700;
+    }
+}

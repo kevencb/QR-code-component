@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Variables */
+$white: hsl(0, 0%, 100%);
+$slate_300: hsl(212, 45%, 89%);
+$slate_500: hsl(216, 15%, 48%);
+$slate_900: hsl(218, 44%, 22%);
+
+/* Mixins */
+@mixin title{
+    font-size: 2.2rem;
+    color: $slate_900;
+    line-height: 120%;
+    padding: 0 1.6px;
+    margin-bottom: 1.6rem;
+    font-weight: 700;
+}
+
+@mixin paragraph{
+    font-size: 1.5rem;
+    color: $slate_500;
+    line-height: 140%;
+    padding: 0 1.6rem;
+    font-weight: 400;
+}
