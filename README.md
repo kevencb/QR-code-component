@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/kevencb/social-links-profile)
-- Live Site URL: [Development](https://kevencb.github.io/social-links-profile/)
+- Solution URL: [Github](https://github.com/kevencb/QR-code-component)
+- Live Site URL: [Development](https://kevencb.github.io/QR-code-component/)
 
 ## My process
 
